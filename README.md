@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# 🛍️ Simplified E-Commerce Platform (Shopee-Like)
 
-## Project info
+A full-featured, scalable, and responsive e-commerce web platform inspired by Shopee — built for small to medium sellers. This project includes essential marketplace features like product listings, seller dashboards, cart and checkout, and admin control.
 
-**URL**: https://lovable.dev/projects/47850510-1b1b-419a-9a4b-929c33d5971f
+## 📌 Features
 
-## How can I edit this code?
+### 👥 User & Authentication
+- User registration and login
+- Password recovery
+- User roles: Buyer, Seller, Admin
 
-There are several ways of editing your application.
+### 🛒 Marketplace Core
+- Product listing with CRUD functionality
+- Product categories, search, and filters
+- Product ratings and reviews
+- Shopping cart and simple checkout flow
+- Order tracking (Pending, Shipped, Completed)
 
-**Use Lovable**
+### 🧑‍💼 Seller Dashboard
+- Seller account management
+- Product and order control panel
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/47850510-1b1b-419a-9a4b-929c33d5971f) and start prompting.
+### 🛠️ Admin Panel
+- View and manage all users, products, and orders
+- Admin-only controls
 
-Changes made via Lovable will be committed automatically to this repo.
+### 💳 Payment Integration *(optional)*
+- Integrate with PayMongo, GCash, or PayPal
+- Secure checkout via tokenized payments
 
-**Use your preferred IDE**
+### 📬 Notifications
+- Email or in-app alerts for order status and updates
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 📱 Mobile-Responsive UI
+- Designed to work seamlessly on desktop, tablet, and mobile browsers
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧰 Tech Stack
 
-Follow these steps:
+| Layer        | Technology                  |
+|--------------|------------------------------|
+| Frontend     | Vue.js / React.js *(TBD)*    |
+| Backend      | Node.js / Express.js         |
+| Database     | MongoDB / MySQL *(TBD)*      |
+| Auth         | JWT + Bcrypt                 |
+| Payment      | PayMongo / GCash / PayPal    |
+| Deployment   | Vercel / Heroku / Render     |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/yourusername/ecommerce-platform.git
+cd ecommerce-platform
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/47850510-1b1b-419a-9a4b-929c33d5971f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
