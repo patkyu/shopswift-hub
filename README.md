@@ -49,6 +49,6 @@ A full-featured, scalable, and responsive e-commerce web platform inspired by Sh
 
 ```bash
 git clone https://github.com/patkyu/shopswift-hub.git
-cd ecommerce-platform
+cd shopswift-hub
 npm install
 npm run dev
